@@ -1,0 +1,29 @@
+{
+    "name": "Ne, děkuji",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "",
+    "homepage_url": "http://pavel.hrajou.cz",
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ],
+    "icons": {
+        "38": "img/icon38.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "all_frames": false,
+            "css": [
+                "hide.css"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "browser_action": {
+      "default_icon": "img/transparent.png"
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nothanks",
+  "version": "1.0.0",
+  "description": "removes some annoying stuff from some online news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Studeny",
+  "license": "MIT"
+}
