@@ -1,3 +1,6 @@
 #onesignal-popover-container {
   display: none !important;
 }
+#onesignal-slidedown-container {
+  display: none !important;
+}
